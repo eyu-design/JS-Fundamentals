@@ -1,4 +1,4 @@
-function frst() {
+
 const [, , firstArg] = process.argv;
 
 if (firstArg !== undefined) {
