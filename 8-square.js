@@ -1,5 +1,5 @@
 const [, , arg] = process.argv;
-const sizegit  = Number(arg);
+const size = Number(arg);
 
 if (!Number.isInteger(size)) {
   console.log('Missing size');
